@@ -1,0 +1,23 @@
+{
+    "auto_balance": false,
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 9,
+    "dependencies": "log,clearblade",
+    "execution_timeout": 60,
+    "logging_enabled": false,
+    "name": "createZone",
+    "params": [
+        "{\r\n    \"zone\":[\r\n        {\r\n        \"name\":\"testing1\",\r\n        \"location\":\"testlocat\"\r\n        },\r\n        {\r\n        \"name\":\"test2\",\r\n        \"location\":\"test 2\"\r\n        }\r\n        ]\r\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 0,
+        "Authenticated": 1,
+        "Monnit Webhook Adapter": 1,
+        "PortalEditor": 1,
+        "sms-webhook-adapter": 1
+    },
+    "run_user": "",
+    "source": "createZone.js"
+}

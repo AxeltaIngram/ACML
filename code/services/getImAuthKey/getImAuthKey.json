@@ -1,0 +1,23 @@
+{
+    "auto_balance": false,
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 4,
+    "dependencies": "log,http,clearblade,system_Constants,function_library",
+    "execution_timeout": 60,
+    "logging_enabled": false,
+    "name": "getImAuthKey",
+    "params": [
+        "{\r\n  \"method\": \"update\",\r\n  \"gateway_id\": 932970,\r\n  \"username\": \"Ingram.serverroom\",\r\n  \"password\": \"w3Lcom3Server\"\r\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 1,
+        "Authenticated": 1,
+        "Monnit Webhook Adapter": 1,
+        "PortalEditor": 1,
+        "sms-webhook-adapter": 1
+    },
+    "run_user": "",
+    "source": "getImAuthKey.js"
+}

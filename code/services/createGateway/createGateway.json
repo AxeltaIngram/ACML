@@ -1,0 +1,23 @@
+{
+    "auto_balance": false,
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 25,
+    "dependencies": "log,clearblade",
+    "execution_timeout": 60,
+    "logging_enabled": true,
+    "name": "createGateway",
+    "params": [
+        "{\n  \"gateway\": {\n    \"battery_level\": 101,\n    \"gateway_id\": 913529,\n    \"gateway_label\": \"TestGateway\",\n    \"gateway_name\": \"CGW33gNorthAmerica-913529\",\n    \"location_id\": \"a0626bd6-fd49-4647-aa6f-6b4fedb84ed1\",\n    \"network_id\": 5,\n    \"signal_strength\": 25,\n    \"zone_id\": \"55718c37-6b4d-47ce-8258-424e6768066d\"\n  }\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 0,
+        "Authenticated": 1,
+        "Monnit Webhook Adapter": 1,
+        "PortalEditor": 1,
+        "sms-webhook-adapter": 1
+    },
+    "run_user": "",
+    "source": "createGateway.js"
+}

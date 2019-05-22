@@ -1,0 +1,19 @@
+{
+    "auto_balance": false,
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 59,
+    "dependencies": "log,clearblade",
+    "execution_timeout": 60,
+    "logging_enabled": true,
+    "name": "getEmployees",
+    "params": [
+        "{\"email\": \"test@gmail.com\",\n  \"employee\": {\n    \"first_name\": \"Test1\",\n    \"last_name\": \"Employee\",\n    \"title\": \"Testing222\",\n    \"role\": \"\",\n    \"email\": \"test@gmail.com\",\n    \"phone_number\": \"9640339215\",\n    \"locations\": \"[\\\"339552d1-1d57-4a07-826c-3f1805157029\\\"]\"\n  }}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "getEmployees.js"
+}

@@ -1,0 +1,21 @@
+{
+    "auto_balance": false,
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 245,
+    "dependencies": "log,clearblade,checkAlertViolated",
+    "execution_timeout": 60,
+    "logging_enabled": true,
+    "name": "processImonnitEvent",
+    "params": [
+        "{\n  \"body\": \"{\\\"sensor_message\\\":{\\\"applicationID\\\":\\\"43\\\",\\\"batteryLevel\\\":\\\"100\\\",\\\"dataMessageGUID\\\":\\\"eac6c96a-395d-4486-9ee4-d4359978ce4a\\\",\\\"dataType\\\":\\\"Percentage|TemperatureData\\\",\\\"dataValue\\\":\\\"25.44|17.8\\\",\\\"messageDate\\\":\\\"2019-01-14 08:32:35\\\",\\\"networkID\\\":\\\"2\\\",\\\"pendingChange\\\":\\\"True\\\",\\\"plotLabels\\\":\\\"Humidity|Celsius\\\",\\\"plotValues\\\":\\\"25.44|17.8\\\",\\\"rawData\\\":\\\"25.44%2c17.8\\\",\\\"sensorID\\\":\\\"351530\\\",\\\"sensorName\\\":\\\"Humidity\\\",\\\"signalStrength\\\":\\\"61\\\",\\\"state\\\":\\\"0\\\"},\\\"gateway_message\\\":{\\\"accountID\\\":\\\"3\\\",\\\"batteryLevel\\\":\\\"101\\\",\\\"count\\\":\\\"3\\\",\\\"date\\\":\\\"2019-01-14 08:33:32\\\",\\\"gatewayID\\\":\\\"913529\\\",\\\"gatewayName\\\":\\\"CGW3 3g North America - 913529\\\",\\\"messageType\\\":\\\"0\\\",\\\"networkID\\\":\\\"5\\\",\\\"pendingChange\\\":\\\"False\\\",\\\"power\\\":\\\"0\\\",\\\"signalStrength\\\":\\\"18\\\"},\\\"time_received\\\":\\\"2019-01-14T08:34:08Z\\\"}\",\n  \"topic\": \"monnit-webhook-adapter/351530\",\n  \"trigger\": \"Messaging::Publish\",\n  \"userId\": \"aebed3b90bcabac4e7c6eef5b9e601 :: monnit-webhook-adapter\"\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 1,
+        "Authenticated": 1,
+        "Monnit Webhook Adapter": 1
+    },
+    "run_user": "",
+    "source": "processImonnitEvent.js"
+}

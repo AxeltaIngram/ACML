@@ -1,0 +1,71 @@
+{
+    "app_id": "aebed3b90bcabac4e7c6eef5b9e601",
+    "collection_id": "d0d9ddb90bde83e9828d80f7f274",
+    "items": [
+        {
+            "customer_name": "",
+            "gateway_heartbeat": 15,
+            "gateway_id": 904065,
+            "gateway_type": "",
+            "item_id": "edecaffc-9b57-42ea-b43b-ce9caff25208",
+            "mac_address": "",
+            "network_id": 5,
+            "network_uuid": null,
+            "sensors": "{\"sensorsList\":[\"385164\",\"351530\",\"385010\",\"385085\",\"385258\"]}"
+        }
+    ],
+    "name": "devices_metadata",
+    "permissions": {
+        "Administrator": 15,
+        "Anonymous": 1,
+        "Authenticated": 1,
+        "Monnit Webhook Adapter": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "network_id",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "gateway_id",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "sensors",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "customer_name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "network_uuid",
+            "ColumnType": "uuid",
+            "PK": false
+        },
+        {
+            "ColumnName": "gateway_heartbeat",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "mac_address",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "gateway_type",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}

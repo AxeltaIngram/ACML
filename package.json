@@ -1,0 +1,29 @@
+{
+    "asset_types": [
+        "Code Libraries",
+        "Code Services",
+        "Collections",
+        "Roles",
+        "Triggers"
+    ],
+    "author": {
+        "email": "ingram@axelta.com"
+    },
+    "clouds": [],
+    "description": "This system will be used to monitor a variety of temperature and humidity metrics",
+    "domains": [],
+    "gateways": [],
+    "image_url": "https://docs.clearblade.com/v/3/static/img/default_package.png",
+    "keywords": [
+        "clearblade",
+        "iot",
+        "platform"
+    ],
+    "license": "MIT",
+    "name": "Refrigerator_Monitoring",
+    "private": false,
+    "prog_lang": [],
+    "protocols": [],
+    "things": [],
+    "version": "1.0.0"
+}

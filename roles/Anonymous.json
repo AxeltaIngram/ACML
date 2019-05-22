@@ -1,0 +1,349 @@
+{
+    "Description": "Default role that is applied to all unauthenticated users",
+    "ID": "Anonymous",
+    "Name": "Anonymous",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 1
+        },
+        "AllServices": {
+            "Level": 1
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "GetGatewayMACandHBandGT",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 1,
+                "Name": "Portal_LoadDevices",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 1,
+                "Name": "Portal_LoadSensor",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 1,
+                "Name": "addMessageHistory",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 1,
+                "Name": "alert_service",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "createAssetType",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "createFoodTestType",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "createGateway",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "createLocationType",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "createSensorType",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "createSensorTypes",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "createZone",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "deleteAssetType",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "deleteFoodTestType",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "deleteGateway",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "deleteLocationType",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "deleteSensorType",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "deleteZone",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "getAssets",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "getFoodTestTypes",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 1,
+                "Name": "getImAuthKey",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "getLocationTypes",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "getLocations",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 1,
+                "Name": "getMessagesHistory",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "getOrphanGatewayData",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 1,
+                "Name": "getTestHistory",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "getZones",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 1,
+                "Name": "http_sendSMSMessage",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 1,
+                "Name": "imonnitDeviceData",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 1,
+                "Name": "processImonnitEvent",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 1,
+                "Name": "testSevice",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "updateAssetType",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "updateFoodTestType",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "updateGateway",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "updateLocationType",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "updateSensorType",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "updateZone",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": [],
+                "ID": "e0d7b5c60be0b6ef8bd2ef90d4ee01",
+                "Items": [],
+                "Level": 15,
+                "Name": "AccessController"
+            },
+            {
+                "Columns": [],
+                "ID": "aeef9eba0be2f19af9f896e1c49d01",
+                "Items": [],
+                "Level": 15,
+                "Name": "Alerts"
+            },
+            {
+                "Columns": [],
+                "ID": "c2f195ba0b86c0dfafddfda9efe801",
+                "Items": [],
+                "Level": 0,
+                "Name": "Customers"
+            },
+            {
+                "Columns": [],
+                "ID": "c6e4e8bb0bae8185f1ccaffaf03f",
+                "Items": [],
+                "Level": 0,
+                "Name": "FoodTestTypes"
+            },
+            {
+                "Columns": [],
+                "ID": "94d8fabc0bb4cc82b7aaaaa8c29301",
+                "Items": [],
+                "Level": 0,
+                "Name": "LocationTypes"
+            },
+            {
+                "Columns": [],
+                "ID": "f2a6d2c00bdc97f991d8d2c6d63e",
+                "Items": [],
+                "Level": 0,
+                "Name": "MessagesHistory"
+            },
+            {
+                "Columns": [],
+                "ID": "d6f38aba0bace4f3ffb6cd8c94a601",
+                "Items": [],
+                "Level": 15,
+                "Name": "Sensors"
+            },
+            {
+                "Columns": [],
+                "ID": "dcb2c4c10ba0c7a29bafecb4e413",
+                "Items": [],
+                "Level": 0,
+                "Name": "Zones"
+            },
+            {
+                "Columns": [],
+                "ID": "d0d9ddb90bde83e9828d80f7f274",
+                "Items": [],
+                "Level": 1,
+                "Name": "devices_metadata"
+            },
+            {
+                "Columns": [],
+                "ID": "9ce2ddb90b92dfe0879be19bb9ae01",
+                "Items": [],
+                "Level": 1,
+                "Name": "gateways_data"
+            },
+            {
+                "Columns": [],
+                "ID": "c0e2ddb90bbed9afaeaeadfa8fef01",
+                "Items": [],
+                "Level": 1,
+                "Name": "sensors_data"
+            }
+        ],
+        "Deployments": {
+            "Level": 0
+        },
+        "DevicesList": {
+            "Level": 0
+        },
+        "EdgesList": {
+            "Level": 0
+        },
+        "MsgHistory": {
+            "Level": 1
+        },
+        "Portals": [
+            {
+                "Level": 5,
+                "Name": "NewFeaturesTesting",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "tracy-asset-typs",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "Portal_For_Modifications",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 5,
+                "Name": "tracy_alerts_portal",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 0,
+                "Name": "tracy-clone",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 1,
+                "Name": "testPortal",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 5,
+                "Name": "CheckModal",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            },
+            {
+                "Level": 5,
+                "Name": "adam-smart-city",
+                "SystemKey": "aebed3b90bcabac4e7c6eef5b9e601"
+            }
+        ],
+        "Push": {
+            "Level": 0
+        },
+        "Roles": {
+            "Level": 0
+        },
+        "Timers": {
+            "Level": 0
+        },
+        "Topics": [],
+        "Triggers": {
+            "Level": 0
+        },
+        "UsersList": {
+            "Level": 0
+        }
+    }
+}

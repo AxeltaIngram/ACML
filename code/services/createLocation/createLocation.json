@@ -1,0 +1,19 @@
+{
+    "auto_balance": false,
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 24,
+    "dependencies": "log,clearblade",
+    "execution_timeout": 60,
+    "logging_enabled": true,
+    "name": "createLocation",
+    "params": [
+        "{\n  \"location\": {\n    \"address\": \"hyd\",\n    \"city\": \"hyd\",\n    \"customer_id\": \"2843b40d-b3e5-4f4c-9f5f-9ac8d2709ec8\",\n    \"label\": \"test\",\n    \"lat\": \"43.625\",\n    \"name\": \"test\",\n    \"long\": \"77.218788\",\n    \"postal_code\": \"500016\",\n    \"province\": \"ts\"\n  }\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "createLocation.js"
+}

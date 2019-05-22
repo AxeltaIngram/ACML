@@ -1,0 +1,8 @@
+{
+    "api": "",
+    "dependencies": "q_library,clearblade",
+    "description": "",
+    "name": "function_library",
+    "version": 22,
+    "visibility": "system"
+}

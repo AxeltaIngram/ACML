@@ -1,0 +1,19 @@
+{
+    "auto_balance": false,
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 46,
+    "dependencies": "log,clearblade",
+    "execution_timeout": 60,
+    "logging_enabled": true,
+    "name": "createEmployee",
+    "params": [
+        "{\n  \"employee\": {\n    \"assets\": \"\",\n    \"first_name\": \"fddy\",\n    \"last_name\": \"fhgfj\",\n    \"locations\": \"339552d1-1d57-4a07-826c-3f1805157029\",\n    \"phone_number\": \"5632555556\",\n    \"photo\": \"\",\n    \"role\": \"Employee\",\n    \"title\": \"hgfhg\",\n    \"zones\": \"\",\n    \"customer_id\": \"wevev\"\n  },\n  \"user\": {\n    \"email\": \"fdgd@src.ggj\",\n    \"password\": \"dgfdhggc\"\n  }\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "createEmployee.js"
+}

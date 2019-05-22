@@ -1,0 +1,19 @@
+{
+    "auto_balance": false,
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 35,
+    "dependencies": "log,clearblade",
+    "execution_timeout": 60,
+    "logging_enabled": true,
+    "name": "getAlertHistory",
+    "params": [
+        "{\n  \"configuration_id\": \"d04dec59-ec77-43dc-bd64-8dc42a342583\",\n  \"fromTS\": 1537426541,\n  \"toTS\": 1538031341\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "getAlertHistory.js"
+}

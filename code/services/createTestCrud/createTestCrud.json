@@ -1,0 +1,16 @@
+{
+    "auto_balance": false,
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 1,
+    "dependencies": "log,clearblade",
+    "execution_timeout": 60,
+    "logging_enabled": false,
+    "name": "createTestCrud",
+    "params": [
+        "{\"item\":{}}"
+    ],
+    "permissions": {},
+    "run_user": "",
+    "source": "createTestCrud.js"
+}
